@@ -130,3 +130,21 @@ Chimera agents need formal social protocols so agent-to-agent communication is s
 ### Refusal Protocol
 - Gives clear reasons for rejecting requests, such as unsafe content, unsupported capability, insufficient trust, sensitive topic, or budget exceeded.
 - Makes boundaries machine-readable and consistent.
+
+
+## Final Research Takeaway
+
+Project Chimera should be designed as governed agentic infrastructure, not just content automation.
+
+The strongest direction is:
+
+- Spec-driven development
+- Planner -> Worker -> Judge swarm architecture
+- MCP-first external integrations
+- Reusable runtime skills
+- Human-in-the-loop safety
+- Agent identity and social protocols
+- Prompt-injection defense
+- Java 21 immutable DTOs and virtual threads
+- Tests before implementation
+- Governance before autonomy
