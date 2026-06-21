@@ -1,0 +1,61 @@
+language: "en-US"
+
+reviews:
+  profile: "assertive"
+  request_changes_workflow: true
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: false
+
+path_filters:
+  - "!target/**"
+  - "!**/*.class"
+  - "!**/.DS_Store"
+
+instructions: |
+  You are reviewing Project Chimera, an autonomous influencer system.
+
+  This repository follows Spec-Driven Development. The specs/ directory is the source of truth.
+
+  Prime directive:
+  - Do not approve implementation that does not trace back to specs/.
+  - Check specs/_meta.md, specs/functional.md, specs/technical.md, and specs/openclaw_integration.md before approving architectural changes.
+
+  Review priorities:
+  1. Spec Alignment
+     - Verify that changes implement documented requirements.
+     - Flag behavior invented outside specs/.
+     - Require updates to specs before new behavior is added.
+
+  2. Java 21 and Immutability
+     - Prefer Java records for DTOs passed between Planner, Worker, and Judge.
+     - Flag mutable POJOs for core agent payloads.
+     - Prefer explicit enums over stringly typed constants.
+     - Avoid generic Map<String, Object> for core contracts.
+
+  3. Planner -> Worker -> Judge Boundaries
+     - Planner should create tasks.
+     - Worker should execute atomic tasks through approved skills and MCP tools.
+     - Judge should validate output, confidence, policy, state_version, and escalation.
+     - Publishing, financial actions, and sensitive actions must not bypass Judge/HITL.
+
+  4. Java Thread Safety and Concurrency
+     - Prefer Java 21 virtual threads for high-volume Worker execution.
+     - Avoid shared mutable state.
+     - Check state_version / OCC behavior before commits.
+     - Flag unsafe concurrency patterns.
+
+  5. Security and Governance
+     - No hardcoded secrets, API keys, private keys, tokens, or credentials.
+     - External and agent-to-agent messages must be treated as untrusted input.
+     - Direct external API calls from agent core should be rejected; use MCP boundaries.
+     - Sensitive topics and financial actions must escalate according to policy.
+     - Audit events should exist for state-changing actions.
+
+  6. Testing
+     - JUnit 5 tests are required for generated behavior.
+     - Contract tests may intentionally fail before implementation.
+     - New implementation should move tests from compile failure to meaningful pass/fail behavior without weakening them.
+
+  If a change violates the Prime Directive or weakens governance, request changes.

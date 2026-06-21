@@ -1,0 +1,42 @@
+name: Project Chimera CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - "**"
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  build-and-govern:
+    name: Build, Spec Check, and Contract Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+
+      - name: Show Java and Maven versions
+        run: |
+          java -version
+          mvn -version
+
+      - name: Validate spec-driven repository structure
+        run: make spec-check
+
+      - name: Run lint validation
+        run: make lint
+
+      - name: Run JUnit contract tests
+        run: make test
