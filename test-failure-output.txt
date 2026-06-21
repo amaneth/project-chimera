@@ -1,0 +1,245 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.chimera:project-chimera >---------------------
+[INFO] Building Project Chimera 0.1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ project-chimera ---
+[INFO] skip non existing resourceDirectory /Users/aman/Documents/my_projects/project-chimera/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ project-chimera ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- build-helper:3.4.0:add-test-source (add-extra-test-source) @ project-chimera ---
+[INFO] Test Source directory: /Users/aman/Documents/my_projects/project-chimera/tests added.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ project-chimera ---
+[INFO] skip non existing resourceDirectory /Users/aman/Documents/my_projects/project-chimera/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ project-chimera ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 3 source files with javac [debug release 21] to target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[26,20] cannot find symbol
+  symbol:   class FetchTrendsRequest
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[27,20] cannot find symbol
+  symbol:   class FetchTrendsRequest
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[29,49] cannot find symbol
+  symbol:   class FetchTrendsRequest
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[47,20] cannot find symbol
+  symbol:   class TrendSignal
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[48,20] cannot find symbol
+  symbol:   class TrendSignal
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[50,49] cannot find symbol
+  symbol:   class TrendSignal
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[70,20] cannot find symbol
+  symbol:   class TrendFetchResponse
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[71,20] cannot find symbol
+  symbol:   class TrendFetchResponse
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[72,20] cannot find symbol
+  symbol:   class TrendFetcherSkill
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[74,57] cannot find symbol
+  symbol:   class TrendFetchResponse
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[80,79] cannot find symbol
+  symbol:   class FetchTrendsRequest
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[80,30] cannot find symbol
+  symbol:   class TrendFetcherSkill
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[81,59] cannot find symbol
+  symbol:   class TrendFetchResponse
+  location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[25,20] cannot find symbol
+  symbol:   class DraftSocialPostRequest
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[26,20] cannot find symbol
+  symbol:   class DraftSocialPostRequest
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[28,49] cannot find symbol
+  symbol:   class DraftSocialPostRequest
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[47,20] cannot find symbol
+  symbol:   class DraftSocialPostResponse
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[48,20] cannot find symbol
+  symbol:   class DraftSocialPostResponse
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[50,49] cannot find symbol
+  symbol:   class DraftSocialPostResponse
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[67,20] cannot find symbol
+  symbol:   class BudgetCheckRequest
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[68,20] cannot find symbol
+  symbol:   class BudgetCheckRequest
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[69,20] cannot find symbol
+  symbol:   class BudgetCheckResponse
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[70,20] cannot find symbol
+  symbol:   class BudgetCheckResponse
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[71,20] cannot find symbol
+  symbol:   class BudgetCheckSkill
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[73,56] cannot find symbol
+  symbol:   class BudgetCheckRequest
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[87,78] cannot find symbol
+  symbol:   class BudgetCheckRequest
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[87,30] cannot find symbol
+  symbol:   class BudgetCheckSkill
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[88,59] cannot find symbol
+  symbol:   class BudgetCheckResponse
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[94,20] cannot find symbol
+  symbol:   class BudgetCheckSkill
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[96,78] cannot find symbol
+  symbol:   class BudgetCheckRequest
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[96,30] cannot find symbol
+  symbol:   class BudgetCheckSkill
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[98,27] cannot find symbol
+  symbol:   class BudgetExceededException
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[104,20] cannot find symbol
+  symbol:   class ChimeraSkill
+  location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[105,20] cannot find symbol
+  symbol:   class SkillExecutionContext
+  location: class com.chimera.SkillsInterfaceTest
+[INFO] 34 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.416 s
+[INFO] Finished at: 2026-06-21T07:19:27+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile (default-testCompile) on project project-chimera: Compilation failure: Compilation failure: 
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[26,20] cannot find symbol
+[ERROR]   symbol:   class FetchTrendsRequest
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[27,20] cannot find symbol
+[ERROR]   symbol:   class FetchTrendsRequest
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[29,49] cannot find symbol
+[ERROR]   symbol:   class FetchTrendsRequest
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[47,20] cannot find symbol
+[ERROR]   symbol:   class TrendSignal
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[48,20] cannot find symbol
+[ERROR]   symbol:   class TrendSignal
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[50,49] cannot find symbol
+[ERROR]   symbol:   class TrendSignal
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[70,20] cannot find symbol
+[ERROR]   symbol:   class TrendFetchResponse
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[71,20] cannot find symbol
+[ERROR]   symbol:   class TrendFetchResponse
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[72,20] cannot find symbol
+[ERROR]   symbol:   class TrendFetcherSkill
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[74,57] cannot find symbol
+[ERROR]   symbol:   class TrendFetchResponse
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[80,79] cannot find symbol
+[ERROR]   symbol:   class FetchTrendsRequest
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[80,30] cannot find symbol
+[ERROR]   symbol:   class TrendFetcherSkill
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/TrendFetcherTest.java:[81,59] cannot find symbol
+[ERROR]   symbol:   class TrendFetchResponse
+[ERROR]   location: class com.chimera.TrendFetcherTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[25,20] cannot find symbol
+[ERROR]   symbol:   class DraftSocialPostRequest
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[26,20] cannot find symbol
+[ERROR]   symbol:   class DraftSocialPostRequest
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[28,49] cannot find symbol
+[ERROR]   symbol:   class DraftSocialPostRequest
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[47,20] cannot find symbol
+[ERROR]   symbol:   class DraftSocialPostResponse
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[48,20] cannot find symbol
+[ERROR]   symbol:   class DraftSocialPostResponse
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[50,49] cannot find symbol
+[ERROR]   symbol:   class DraftSocialPostResponse
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[67,20] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckRequest
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[68,20] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckRequest
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[69,20] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckResponse
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[70,20] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckResponse
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[71,20] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckSkill
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[73,56] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckRequest
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[87,78] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckRequest
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[87,30] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckSkill
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[88,59] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckResponse
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[94,20] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckSkill
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[96,78] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckRequest
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[96,30] cannot find symbol
+[ERROR]   symbol:   class BudgetCheckSkill
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[98,27] cannot find symbol
+[ERROR]   symbol:   class BudgetExceededException
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[104,20] cannot find symbol
+[ERROR]   symbol:   class ChimeraSkill
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] /Users/aman/Documents/my_projects/project-chimera/tests/com/chimera/SkillsInterfaceTest.java:[105,20] cannot find symbol
+[ERROR]   symbol:   class SkillExecutionContext
+[ERROR]   location: class com.chimera.SkillsInterfaceTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
